@@ -14,18 +14,18 @@ width = 300
  *  Tested: with LPC1768
  *  Author: F. Cosentino
 
-
-## Implementation Details
+## Implementation details
 
 This is a configuration Node without any connections
 
-## input/Output Connections 
+
+# Input/Output Connections
 
  *  No connections
 
 ## Node Parameters 
  *  PinName:  Pin to be used for Kernel Duty Cycle Indicator
 
-## Usage Example 
-[KernelFramePulse]
-[Other]-->[Other]
+## Usage example
+[KernelFramePulse]  
+[Other]-->[Other] 
