@@ -1,11 +1,11 @@
 # KernelFramePulse
 
-Configures the nBlocksStudio Kernel to Indicate active and idle Kernel period on a Pin. The period of this signal is the Kernel Tick. The duty-cycle is the Kernel Duty Cycle for a Program. Represents the Microcontroller occupancy and is one of the indexes to measure the quality of any Program. Can be connected to Oscilloscope or an LED 
+Configures the nBlocksStudio Kernel to Indicate active and idle Kernel period on a Pin. The period of this signal is the Kernel Tick. The duty-cycle is the Kernel Duty Cycle for a Program. Represents the Microcontroller occupancy and is one of the indexes to measure the quality of any Program. Can be connected to Oscilloscope or an LED 
 
 <p align="center">
 <img
 src="img/01.PNG"
-width = 400
+width = 300
 />
 </p> 
 
@@ -22,7 +22,8 @@ This is a configuration Node without any connections
 ## input/Output Connections 
 
  *  No connections
-## Node Parameters ##
+
+## Node Parameters 
  *  PinName:  Pin to be used for Kernel Duty Cycle Indicator
 
 ## Usage Example 
