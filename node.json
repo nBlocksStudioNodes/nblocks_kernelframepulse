@@ -4,16 +4,14 @@
 	"inputs": 0,
 	"outputs": 0,
 	"parameters": [
-	
-	
-	
 		{
-			"name": "Output Pin",
+			"name": "pinIndicator",
 			"type": "raw",
-			"default": "LED1",
-			"options": [],
+			"default": "LED",
+			"options": [
+				""
+			],
 			"value": "LED1"
-		
 		}
 	],
 	"labels": {
@@ -21,9 +19,13 @@
 		"output": []
 	},
 	"schematic_pins": {
-		"inputs": [],
-		"outputs": []
+		"inputs": [
+			0
+		],
+		"outputs": [
+			0
+		]
 	},
-	"repository": "https://github.com/nBlocksStudioNodes/nblocks_kernelframepulse",
+	"repository": "https://github.com/nBlocksStudioNodes/nblocks_kernelframepulse/blob/main/kernelframepulse.cpp",
 	"revision": ""
 }
